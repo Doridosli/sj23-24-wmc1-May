@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: white;
+    box-shadow: 0 5px 10px rgb(100, 23, 78);
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header .navbar ul{
+    list-style: none;
+}
+
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+    right: -30em;
+
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    color:rgb(226, 5, 189);
+    text-decoration: none ;
+}
+
+header .navbar ul li a:hover{
+    background: rgb(100, 23, 78);
+    color: white;}
+
+h1{
+    position: relative;
+    bottom: -2em;
+    font-size: xx-large;
+    text-align: center;
+    color:  rgb(226, 5, 189);
+
+ }
+
+ img{
+    float: right;
+ }
+div{
+    position: relative;
+    bottom: -4em;
+    font-size: large;
+}
+
+h2{
+    position: relative;
+    bottom: -9em;
+    color: rgb(226, 5, 189);
+}
+
+h4{
+    position: relative;
+    bottom: -14em;
+}
+
+ol{
+    position: relative;
+    bottom: -13em;
+    font-size: large;
+   
+}
+
+h3{
+    position: relative;
+    bottom: -13em;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(226, 5, 189);
+}
+
+table{
+    position: relative;
+    bottom: -10em;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e7feff;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #af8cd7;
+  }
+
+thead{
+    background-color: #af8cd7;
+}
+
+form{
+    position: relative;
+    bottom: -8em;
+}
+
+ 
